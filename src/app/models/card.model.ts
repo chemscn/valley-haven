@@ -4,4 +4,3 @@ export interface ICard {
 	linkSrc: string;
 	imageSrc: string;
 }
-

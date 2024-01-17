@@ -17,7 +17,7 @@ export const InfoCard = () => {
 					We work endlessly to shape the way they live their lives and teach them the fundamentals
 					of social responsibility, healthy living, and cultural acceptance.
 				</p>
-				<div className='flex justify-center pb-2'>
+				<div className="flex justify-center pb-2">
 					<img
 						width={300}
 						src="/hands.png"

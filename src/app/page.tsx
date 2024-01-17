@@ -11,7 +11,7 @@ const cards: ICard[] = [
 		and time can bring comfort and support to those in need
 		`,
 		linkSrc: '/volunteer',
-		imageSrc: '/volunteer.jpg'
+		imageSrc: '/volunteer.jpg',
 	},
 	{
 		title: 'Career',
@@ -20,7 +20,7 @@ const cards: ICard[] = [
 		where every career contributes to creating a secure and nurturing envrionment for those in crisis.
 		`,
 		linkSrc: '/career',
-		imageSrc: '/career.jpg'
+		imageSrc: '/career.jpg',
 	},
 	{
 		title: 'Donation',
@@ -29,7 +29,7 @@ const cards: ICard[] = [
 		helping us provide essential care and comfort to those facing crisis situations.
 		`,
 		linkSrc: '/donation',
-		imageSrc: '/donation.jpg'
+		imageSrc: '/donation.jpg',
 	},
 ];
 export default function Home() {
@@ -37,11 +37,11 @@ export default function Home() {
 		<main className="flex min-h-screen flex-col">
 			<Hero />
 			<hr className=" mx-10 border-gray-300" />
-			<div className='flex-wrap flex lg:flex-row sm:justify-around py-20 gap-5 sm: mx-10'>
+			<div className="flex-wrap flex lg:flex-row sm:justify-around py-20 gap-5 sm: mx-10">
 				{cards.map((card, i) => {
 					return (
 						<Card
-							key={i}							
+							key={i}
 							title={card.title}
 							content={card.content}
 							linkSrc={card.linkSrc}
@@ -55,4 +55,3 @@ export default function Home() {
 		</main>
 	);
 }
-

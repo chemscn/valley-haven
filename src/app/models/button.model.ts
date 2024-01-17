@@ -1,6 +1,6 @@
 export interface IButton {
 	buttonType: ButtonType;
-    buttonText: string;
+	buttonText: string;
 }
 
 type ButtonType = 'primary' | 'outline' | 'accent';

@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			data-theme="light"
 			lang="en"
 		>
-			<body className='bg-white'>
+			<body className="bg-white">
 				<Navbar />
 				{children}
 				<Footer />
@@ -22,4 +22,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 		</html>
 	);
 }
-
