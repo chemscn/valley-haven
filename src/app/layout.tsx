@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Navbar } from './components';
 import { Footer } from './components/Footer';
+import './globals.css';
 
 export const metadata: Metadata = {
 	title: 'Valley Haven Inc.',

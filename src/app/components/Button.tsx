@@ -1,9 +1,9 @@
 import React from 'react';
 import { IButton } from '../models';
 
-export const Button = ({ buttonType, buttonText }: IButton) => {
+export const Button = ({ buttonType, buttonText, spacing }: IButton) => {
 	const buttonSwitch = () => {
-		let className = 'btn text-lg';
+		let className = spacing ? `btn text-lg me-${spacing}`: 'btn text-lg';
 		switch (buttonType) {
 			case (buttonType = 'outline'):
 				return (className +=
@@ -12,6 +12,8 @@ export const Button = ({ buttonType, buttonText }: IButton) => {
 				return (className += ' btn-success text-white');
 			case (buttonType = 'accent'):
 				return (className += ' bg-amber-700 hover:bg-amber-600 text-white');
+			case (buttonType = 'danger'):
+				return (className += ' btn-outline border-error text-error hover:text-white hover:bg-error hover:border-error')
 			default:
 				return className;
 		}

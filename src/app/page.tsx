@@ -1,3 +1,4 @@
+import { Divider } from './components';
 import { Card } from './components/Card';
 import { Hero } from './components/Hero';
 import { InfoCard } from './components/InfoCard';
@@ -36,7 +37,7 @@ export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col">
 			<Hero />
-			<hr className=" mx-10 border-gray-300" />
+			<Divider />
 			<div className="flex-wrap flex lg:flex-row sm:justify-around py-20 gap-5 sm: mx-10">
 				{cards.map((card, i) => {
 					return (
@@ -50,7 +51,7 @@ export default function Home() {
 					);
 				})}
 			</div>
-			<hr className="mx-10 border-gray-300" />
+			<Divider />
 			<InfoCard />
 		</main>
 	);
