@@ -5,3 +5,4 @@ export * from './Button';
 export * from './Divider';
 export * from './InfoCard';
 export * from './Footer';
+export * from './ContactElement';

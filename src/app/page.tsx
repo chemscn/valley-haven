@@ -1,5 +1,6 @@
 import { Divider } from './components';
 import { Card } from './components/Card';
+import { Carousel } from './components/Carousel';
 import { Hero } from './components/Hero';
 import { InfoCard } from './components/InfoCard';
 import { ICard } from './models';
@@ -38,7 +39,7 @@ export default function Home() {
 		<main className="flex min-h-screen flex-col">
 			<Hero />
 			<Divider />
-			<div className="flex-wrap flex lg:flex-row sm:justify-around py-20 gap-5 sm: mx-10">
+			<div className="flex-wrap flex flex-row justify-around py-20 gap-5">
 				{cards.map((card, i) => {
 					return (
 						<Card
@@ -53,6 +54,10 @@ export default function Home() {
 			</div>
 			<Divider />
 			<InfoCard />
+			<Divider />
+			<div className="flex justify-center py-10">
+			<Carousel />
+			</div>
 		</main>
 	);
 }

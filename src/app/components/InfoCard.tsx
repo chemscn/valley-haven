@@ -1,8 +1,9 @@
 import React from 'react';
+import Image from 'next/image';
 
 export const InfoCard = () => {
 	return (
-		<div className="card my-10 mx-10 bg-green-800 text-white lg:mx-80">
+		<div className="card my-10 mx-10 bg-green-800 text-white md:mx-40">
 			<div className="card-body">
 				<h2 className="text-4xl text-center pb-4">Our Philosophy</h2>
 				<p className="text-xl pb-2">
@@ -18,10 +19,8 @@ export const InfoCard = () => {
 					of social responsibility, healthy living, and cultural acceptance.
 				</p>
 				<div className="flex justify-center pb-2">
-					<img
-						width={300}
-						src="/hands.png"
-					/>
+					<Image src='/hands.png' width={300} height={300} alt='hands image' />
+
 				</div>
 				<p className="text-xl text-center pb-2">
 					Valley Haven: Where children are safe, loved, heard and happy!

@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
 
 body,html {
     @apply bg-gray-50 !important;
+}
+
+h1, h2 {
+    font-family: 'Cardo', serif;
 }

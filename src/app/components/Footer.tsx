@@ -1,49 +1,62 @@
 import React from 'react';
+import Image from 'next/image';
 
 export const Footer = () => {
 	const currentYear = new Date().getFullYear();
 	return (
 		<>
-			<footer className="footer flex flex-row justify-between text-black items-center p-4 bg-gray-200 border-b-0">
+			<footer className="footer flex flex-row justify-between text-black items-center py-4 px-10 bg-gray-200 border-b-0">
 				<aside className="items-center grid-flow-col">
-					<address className="min-w-30">
-						Valley Haven Inc.
+					<address className="min-w-30 text-lg">
+						<b>Valley Haven Inc.</b>
 						<br />
 						5501 W. Business 83
 						<br />
 						Harlingen, TX 78552
 						<br />
-						(956)893-0422
+						<a className='btn-link' href="tel:+19568930422">(956)893-0422</a>
 					</address>
 				</aside>
 				<nav className="grid-flow-col gap-1">
-					<a className="btn btn-ghost">
+					<a href='mailto:info@valleyhaveninc.org' className="btn bg-green-800 hover:bg-green-700 text-white rounded-full">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							className="fill-current"
+							width="18"
+							height="18"
+							fill="currentColor"
+							className="bi bi-envelope"
+							viewBox="0 0 16 16"
 						>
-							<path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+							<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
 						</svg>
 					</a>
-					<a className="btn btn-ghost">
+					<a
+						href="https://twitter.com/valleyhaveninc?lang=en"
+						target="_blank"
+						className="btn btn-neutral text-white rounded-full"
+					>
 						<svg
+							width="18"
+							height="18"
+							viewBox="0 0 1200 1227"
+							fill="none"
 							xmlns="http://www.w3.org/2000/svg"
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							className="fill-current"
 						>
-							<path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+							<path
+								d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
+								fill="white"
+							/>
 						</svg>
 					</a>
-					<a className="btn btn-ghost">
+					<a
+						href="https://www.facebook.com/valleyhaveninc/"
+						target="_blank"
+						className="btn btn-secondary text-white rounded-full"
+					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							width="24"
-							height="24"
+							width="18"
+							height="18"
 							viewBox="0 0 24 24"
 							className="fill-current"
 						>
@@ -52,10 +65,13 @@ export const Footer = () => {
 					</a>
 				</nav>
 			</footer>
-			<div className="flex flex-row justify-center py-4 bg-gray-200">
-				<div className="items-center px-14">
+			<div className="flex flex-row justify-between py-4 px-10 bg-gray-200">
+				<div>
 					<p className="font-bold">Valley Haven Inc. is a 501(C)3 Not-For-Profit Organization</p>
-					<p>Copyright © {currentYear} - DAK</p>
+					<p>Copyright © {currentYear} - DnA</p>
+				</div>
+				<div>
+				<a href='mailto:info@valleyhaveninc.org'>info@valleyhaveninc.org</a>
 				</div>
 			</div>
 		</>
