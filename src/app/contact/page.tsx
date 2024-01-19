@@ -24,7 +24,7 @@ export default function Contact() {
 		<>
 			<div className="container mx-auto lg:px-64">
 				<h1 className="text-4xl font-bold  py-10 text-center">Contact Us</h1>
-				<form className='mx-5 sm:mx-3'>
+				<form className="mx-5 sm:mx-3">
 					<div className="flex flex-row justify-center">
 						<label className="form-control w-full max-w-lg me-10">
 							<div className="label">

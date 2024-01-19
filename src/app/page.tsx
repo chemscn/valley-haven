@@ -56,7 +56,7 @@ export default function Home() {
 			<InfoCard />
 			<Divider />
 			<div className="flex justify-center py-10">
-			<Carousel />
+				<Carousel />
 			</div>
 		</main>
 	);

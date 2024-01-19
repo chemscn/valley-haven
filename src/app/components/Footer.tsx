@@ -14,11 +14,19 @@ export const Footer = () => {
 						<br />
 						Harlingen, TX 78552
 						<br />
-						<a className='btn-link' href="tel:+19568930422">(956)893-0422</a>
+						<a
+							className="btn-link"
+							href="tel:+19568930422"
+						>
+							(956)893-0422
+						</a>
 					</address>
 				</aside>
 				<nav className="grid-flow-col gap-1">
-					<a href='mailto:info@valleyhaveninc.org' className="btn bg-green-800 hover:bg-green-700 text-white rounded-full">
+					<a
+						href="mailto:info@valleyhaveninc.org"
+						className="btn bg-green-800 hover:bg-green-700 text-white rounded-full"
+					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="18"
@@ -71,7 +79,7 @@ export const Footer = () => {
 					<p>Copyright © {currentYear} - DnA</p>
 				</div>
 				<div>
-				<a href='mailto:info@valleyhaveninc.org'>info@valleyhaveninc.org</a>
+					<a href="mailto:info@valleyhaveninc.org">info@valleyhaveninc.org</a>
 				</div>
 			</div>
 		</>

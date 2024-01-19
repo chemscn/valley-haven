@@ -10,7 +10,7 @@ export const Carousel = () => {
 			>
 				<Image
 					className="w-full"
-					src='/carousel-1.jpg'
+					src="/carousel-1.jpg"
 					width={400}
 					height={40}
 					alt="picture of emergency center outside"
@@ -36,7 +36,7 @@ export const Carousel = () => {
 			>
 				<Image
 					className="w-full"
-					src='/carousel-2.jpg'
+					src="/carousel-2.jpg"
 					width={400}
 					height={40}
 					alt="picture of emergency center outside"
@@ -63,7 +63,7 @@ export const Carousel = () => {
 			>
 				<Image
 					className="w-full"
-					src='/carousel-3.jpg'
+					src="/carousel-3.jpg"
 					width={400}
 					height={40}
 					alt="picture of emergency center outside"
@@ -90,7 +90,7 @@ export const Carousel = () => {
 			>
 				<Image
 					className="w-full"
-					src='/carousel-4.jpg'
+					src="/carousel-4.jpg"
 					width={400}
 					height={40}
 					alt="picture of emergency center outside"
@@ -117,7 +117,7 @@ export const Carousel = () => {
 			>
 				<Image
 					className="w-full"
-					src='/carousel-5.jpg'
+					src="/carousel-5.jpg"
 					width={400}
 					height={40}
 					alt="picture of emergency center outside"

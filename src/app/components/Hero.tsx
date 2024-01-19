@@ -8,7 +8,9 @@ export const Hero = () => {
 		<div className="hero pb-10">
 			<div className="hero-content flex flex-col lg:flex-row">
 				<div>
-					<h1 className="lg:text-5xl text-4xl font-bold tracking-wider">Safe Haven for Children in Crisis</h1>
+					<h1 className="lg:text-5xl text-4xl font-bold tracking-wider">
+						Safe Haven for Children in Crisis
+					</h1>
 					<h2 className="lg:text-4xl text-3xl py-5 tracking-tighter">
 						Providing compassionate care and support during times of emergency.
 					</h2>

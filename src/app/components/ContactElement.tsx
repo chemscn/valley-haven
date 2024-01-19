@@ -13,7 +13,7 @@ export const ContactElement = ({ imageSrc, title, subContent, isEmail, isPhone }
 					alt={`${title}-image`}
 				/>
 			</div>
-			<p className='font-bold'>{title}:</p>
+			<p className="font-bold">{title}:</p>
 			{isPhone && (
 				<a
 					className="btn-link"
@@ -30,9 +30,12 @@ export const ContactElement = ({ imageSrc, title, subContent, isEmail, isPhone }
 					{subContent}
 				</a>
 			)}
-			{
-				!subContent && <p>5501 W. Business 83 <br/>Harlingen, TX 78552</p>
-			}
+			{!subContent && (
+				<p>
+					5501 W. Business 83 <br />
+					Harlingen, TX 78552
+				</p>
+			)}
 		</div>
 	);
 };

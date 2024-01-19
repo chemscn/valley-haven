@@ -19,8 +19,12 @@ export const InfoCard = () => {
 					of social responsibility, healthy living, and cultural acceptance.
 				</p>
 				<div className="flex justify-center pb-2">
-					<Image src='/hands.png' width={300} height={300} alt='hands image' />
-
+					<Image
+						src="/hands.png"
+						width={300}
+						height={300}
+						alt="hands image"
+					/>
 				</div>
 				<p className="text-xl text-center pb-2">
 					Valley Haven: Where children are safe, loved, heard and happy!
