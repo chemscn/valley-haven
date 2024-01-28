@@ -5,7 +5,7 @@ export const AboutHero = () => {
 		<div
 			className="hero p-20"
 			style={{
-				backgroundImage: 'url(/children.png)',
+				backgroundImage: 'url(/children.png)'
 			}}
 		>
 			<div className="hero-overlay bg-opacity-70"></div>

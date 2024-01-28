@@ -4,7 +4,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
 	title: 'Valley Haven Inc.',
-	description: "Emergency Children's Shelter",
+	description: "Emergency Children's Shelter"
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -14,7 +14,7 @@ const cards: ICard[] = [
 		and time can bring comfort and support to those in need
 		`,
 		linkSrc: '/volunteer',
-		imageSrc: '/volunteer.jpg',
+		imageSrc: '/volunteer.jpg'
 	},
 	{
 		title: 'Career',
@@ -23,7 +23,7 @@ const cards: ICard[] = [
 		where every career contributes to creating a secure and nurturing envrionment for those in crisis.
 		`,
 		linkSrc: '/career',
-		imageSrc: '/career.jpg',
+		imageSrc: '/career.jpg'
 	},
 	{
 		title: 'Giving',
@@ -32,8 +32,8 @@ const cards: ICard[] = [
 		helping us provide essential care and comfort to those facing crisis situations.
 		`,
 		linkSrc: '/giving',
-		imageSrc: '/donation.jpg',
-	},
+		imageSrc: '/donation.jpg'
+	}
 ];
 
 const cardInfo: ICardInfoProps = {
@@ -45,12 +45,12 @@ const cardInfo: ICardInfoProps = {
 	fully embrace their identity and gain all the skills they need to be leaders tomorrow.`,
 		`We work endlessly to shape the way they live their lives and teach them the fundamentals
 	of social responsibility, healthy living, and cultural acceptance.`,
-		`Valley Haven: Where children are safe, loved, heard and happy!`,
+		`Valley Haven: Where children are safe, loved, heard and happy!`
 	],
 	imageSrc: '/hands.png',
 	imageAlt: 'holding hands',
 	imageHeight: 300,
-	imageWidth: 300,
+	imageWidth: 300
 };
 
 export default function Home() {

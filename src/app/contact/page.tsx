@@ -5,20 +5,20 @@ export default function Contact() {
 	const contactElements: IContactElement[] = [
 		{
 			imageSrc: '/geo.svg',
-			title: 'Address',
+			title: 'Address'
 		},
 		{
 			imageSrc: '/telephone.svg',
 			title: 'Phone Number',
 			subContent: '(956) 893-0422',
-			isPhone: true,
+			isPhone: true
 		},
 		{
 			imageSrc: '/mail.svg',
 			title: 'Email',
 			subContent: 'info@valleyhaveninc.org',
-			isEmail: true,
-		},
+			isEmail: true
+		}
 	];
 	return (
 		<>

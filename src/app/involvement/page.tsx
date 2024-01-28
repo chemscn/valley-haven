@@ -15,7 +15,7 @@ export default function Involvement() {
 					height: '100vh',
 					overflow: 'scroll',
 					backgroundColor: '#faf9fb  !important',
-					marginBottom: 0,
+					marginBottom: 0
 				}}
 			></iframe>
 		</>
