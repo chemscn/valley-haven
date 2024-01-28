@@ -23,7 +23,6 @@ export const Card = ({ title, content, linkSrc, imageSrc }: ICard) => {
 						<Button
 							buttonText="Learn More"
 							buttonType="primary"
-							
 						/>
 					</Link>
 				</div>

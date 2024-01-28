@@ -5,7 +5,7 @@ export interface ICard {
 	imageSrc: string;
 }
 
-export interface ICardInfoProps{
+export interface ICardInfoProps {
 	title: string;
 	paragraphs: string[];
 	hasImage?: boolean;
@@ -13,9 +13,8 @@ export interface ICardInfoProps{
 	imageAlt?: string;
 	imageHeight?: number;
 	imageWidth?: number;
-	
 }
 
 export interface ICardInfo {
-	cardInfo: ICardInfoProps
+	cardInfo: ICardInfoProps;
 }

@@ -50,7 +50,7 @@ const cardInfo: ICardInfoProps = {
 	imageSrc: '/hands.png',
 	imageAlt: 'holding hands',
 	imageHeight: 300,
-	imageWidth: 300
+	imageWidth: 300,
 };
 
 export default function Home() {
