@@ -55,19 +55,19 @@ export default function About() {
 					<div className="w-40 mask mask-squircle">
 						<img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
 					</div>
-					<p className='text-lg font-bold py-2'>Gracie Bradwell</p>
+					<p className="text-lg font-bold py-2">Gracie Bradwell</p>
 				</div>
 				<div className="avatar flex-col items-center">
 					<div className="w-40 mask mask-squircle">
 						<img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
 					</div>
-					<p className='text-lg font-bold py-2'>Kristen Millon</p>
+					<p className="text-lg font-bold py-2">Kristen Millon</p>
 				</div>
 				<div className="avatar flex-col items-center">
 					<div className="w-40 mask mask-squircle">
 						<img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
 					</div>
-					<p className='text-lg font-bold py-2'>Pamela Alvarez</p>
+					<p className="text-lg font-bold py-2">Pamela Alvarez</p>
 				</div>
 			</div>
 		</div>

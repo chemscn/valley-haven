@@ -1,9 +1,10 @@
+import { title } from 'process';
 import { Divider } from './components';
 import { Card } from './components/Card';
 import { Carousel } from './components/Carousel';
 import { Hero } from './components/Hero';
 import { InfoCard } from './components/InfoCard';
-import { ICard } from './models';
+import { ICard, ICardInfoProps } from './models';
 
 const cards: ICard[] = [
 	{
@@ -25,15 +26,33 @@ const cards: ICard[] = [
 		imageSrc: '/career.jpg',
 	},
 	{
-		title: 'Donation',
+		title: 'Giving',
 		content: `
 		Make a positive impact by supporting our shelter through your generous donation,
 		helping us provide essential care and comfort to those facing crisis situations.
 		`,
-		linkSrc: '/donation',
+		linkSrc: '/giving',
 		imageSrc: '/donation.jpg',
 	},
 ];
+
+const cardInfo: ICardInfoProps = {
+	title: 'Our Philosophy',
+	paragraphs: [
+		`At Valley Haven, we believe that children are the very essence of the future. Who they are
+	tomorrow is essentially the outcome of how they are raised and nurtured today.`,
+		`We go above and beyond to provide our youth with an empowering environment where they can
+	fully embrace their identity and gain all the skills they need to be leaders tomorrow.`,
+		`We work endlessly to shape the way they live their lives and teach them the fundamentals
+	of social responsibility, healthy living, and cultural acceptance.`,
+		`Valley Haven: Where children are safe, loved, heard and happy!`,
+	],
+	imageSrc: '/hands.png',
+	imageAlt: 'holding hands',
+	imageHeight: 300,
+	imageWidth: 300
+};
+
 export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col">
@@ -53,7 +72,7 @@ export default function Home() {
 				})}
 			</div>
 			<Divider />
-			<InfoCard />
+			<InfoCard cardInfo={cardInfo} />
 			<Divider />
 			<div className="flex justify-center py-10">
 				<Carousel />

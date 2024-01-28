@@ -22,7 +22,8 @@ export const Card = ({ title, content, linkSrc, imageSrc }: ICard) => {
 					<Link href={linkSrc}>
 						<Button
 							buttonText="Learn More"
-							buttonType="outline"
+							buttonType="primary"
+							
 						/>
 					</Link>
 				</div>

@@ -4,4 +4,4 @@ export interface IButton {
 	spacing?: string;
 }
 
-type ButtonType = 'primary' | 'outline' | 'accent' | 'danger';
+type ButtonType = 'primary' | 'outline' | 'accent' | 'danger' | 'link';
