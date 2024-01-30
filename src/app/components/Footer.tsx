@@ -5,7 +5,7 @@ export const Footer = () => {
 	const currentYear = new Date().getFullYear();
 	return (
 		<>
-			<footer className="footer flex flex-row justify-between text-black items-center py-4 px-10 bg-gray-200 border-b-0">
+			<footer className="footer flex flex-row justify-between items-center py-4 px-10 bg-base-200 border-b-0">
 				<aside className="items-center grid-flow-col">
 					<address className="min-w-30 text-lg">
 						<b>Valley Haven Inc.</b>
@@ -73,7 +73,7 @@ export const Footer = () => {
 					</a>
 				</nav>
 			</footer>
-			<div className="flex flex-row justify-between py-4 px-10 bg-gray-200">
+			<div className="flex flex-row justify-between py-4 px-10 bg-base-200">
 				<div>
 					<p className="font-bold">Valley Haven Inc. is a 501(C)3 Not-For-Profit Organization</p>
 					<p>Copyright © {currentYear} - DnA</p>

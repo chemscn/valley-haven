@@ -39,13 +39,11 @@ const cards: ICard[] = [
 const cardInfo: ICardInfoProps = {
 	title: 'Our Philosophy',
 	paragraphs: [
-		`At Valley Haven, we believe that children are the very essence of the future. Who they are
-	tomorrow is essentially the outcome of how they are raised and nurtured today.`,
-		`We go above and beyond to provide our youth with an empowering environment where they can
-	fully embrace their identity and gain all the skills they need to be leaders tomorrow.`,
-		`We work endlessly to shape the way they live their lives and teach them the fundamentals
-	of social responsibility, healthy living, and cultural acceptance.`,
-		`Valley Haven: Where children are safe, loved, heard and happy!`
+		`At Valley Haven, we steadfastly hold the belief that children represent the cornerstone of our future society. We understand that the trajectory of their lives, the values they uphold, and the impact they make on the world are intricately tied to the nurturing they receive today..`,
+		`Our commitment extends far beyond mere provision; we strive to create an immersive, empowering environment where youth are encouraged to explore their identities fully and develop into confident, compassionate leaders of tomorrow.`,
+		`In our relentless pursuit of excellence, we dedicate ourselves to instilling core principles of social responsibility, fostering healthy living habits, and promoting a culture of inclusivity and acceptance. Through structured programs and hands-on experiences, we equip our children with the essential tools and skills necessary to navigate an ever-changing world with grace and resilience.`,
+		`At Valley Haven, safety is paramount, love is unconditional, voices are heard, and happiness is not just a fleeting emotion but a foundational aspect of every child's experience. We believe in nurturing the whole child – mind, body, and spirit – to cultivate well-rounded individuals who are poised to thrive in all facets of life.`,
+		`Join us at Valley Haven, where every child's journey is celebrated, and every dream is nurtured with unwavering support and dedication. Together, we shape futures and empower the leaders of tomorrow.`
 	],
 	imageSrc: '/hands.png',
 	imageAlt: 'holding hands',

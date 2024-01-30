@@ -13,6 +13,7 @@ export interface ICardInfoProps {
 	imageAlt?: string;
 	imageHeight?: number;
 	imageWidth?: number;
+	isWishList?: boolean;
 }
 
 export interface ICardInfo {

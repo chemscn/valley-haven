@@ -14,7 +14,7 @@ export const Hero = () => {
 					<h2 className="lg:text-4xl text-3xl py-5 tracking-tighter">
 						Providing compassionate care and support during times of emergency.
 					</h2>
-					<Link href="/involvement">
+					<Link target='_blank' href="https://form.jotform.com/kristenmillon/valley-haven-volunteer-application">
 						<Button
 							buttonType="primary"
 							buttonText="Get Involved"

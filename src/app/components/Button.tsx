@@ -1,22 +1,22 @@
 import React from 'react';
 import { IButton } from '../models';
 
-export const Button = ({ buttonType, buttonText, spacing }: IButton) => {
+export const Button = ({ buttonType, buttonText, className }: IButton) => {
 	const buttonSwitch = () => {
-		let className = 'btn text-lg';
+		let newClass = `btn text-lg ${className}`;
 		switch (buttonType) {
 			case (buttonType = 'link'):
-				return (className += ' btn-link text-green-800 hover:text-green-700');
+				return (newClass += ' btn-link text-white');
 			case (buttonType = 'outline'):
-				return (className +=
+				return (newClass +=
 					' btn-outline border-green-800 text-green-800 hover:text-white hover:bg-green-700 hover:border-green-700');
 			case (buttonType = 'primary'):
-				return (className +=
+				return (newClass +=
 					' bg-green-800 hover:text-white hover:bg-green-700 hover:border-green-700 text-white');
 			case (buttonType = 'accent'):
-				return (className += ' bg-amber-700 hover:bg-amber-600 text-white');
+				return (newClass += ' bg-amber-700 hover:bg-amber-600 text-white');
 			case (buttonType = 'danger'):
-				return (className +=
+				return (newClass +=
 					' ms-3 btn-outline border-error text-error hover:text-white hover:bg-error hover:border-error');
 		}
 	};
