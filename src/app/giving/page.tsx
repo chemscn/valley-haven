@@ -38,12 +38,12 @@ export default function Giving() {
 		<div className="container mx-auto pb-3">
 			<InfoCard cardInfo={givingCardInfo} />
 			<Divider />
-			<div className="flex flex-col py-20 lg:mx-48 sm:mx-10">
+			<div className="flex flex-col py-20">
 				<h2 className="text-5xl text-center">Ways to Give</h2>
-				<div className="flex flex-row py-20 justify-between gap-20">
-					<div className="flex flex-col max-w-2xl justify-between">
+				<div className="flex flex-col md:flex-row mx-20 py-20 justify-between gap-20">
+					<div className="flex flex-col gap-10 max-w-2xl justify-evenly">
 						<h1 className="text-3xl">In-Kind Donation</h1>
-						<p className="lg:max-w-xs text-lg">
+						<p className="md:max-w-xs lg:max-w-md text-lg">
 							Each in-kind donation plays a part in preparing the children in our care for their
 							futures. Gifts of your time, talent, and goods demonstrate the faith you place in
 							securing a prosperous future for our children
@@ -61,7 +61,7 @@ export default function Giving() {
 					</div>
 					<div className="flex flex-col gap-10 max-w-2xl justify-between">
 						<h1 className="text-3xl">Cash Donation</h1>
-						<p className="lg:max-w-xs text-lg">
+						<p className="md:max-w-xs lg:max-w-md text-lg">
 							Make a positive impact by supporting our children's emergency shelter through your
 							generous donation. Help us in providing essential care and comfort to those facing
 							crisis situations

@@ -3,7 +3,7 @@ import React from 'react';
 export const AboutHero = () => {
 	return (
 		<div
-			className="hero p-20"
+			className="hero md:p-20"
 			style={{
 				backgroundImage: 'url(/children.png)'
 			}}

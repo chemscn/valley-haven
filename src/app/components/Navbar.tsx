@@ -1,28 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { Button } from '.';
-import { useEffect, useState } from 'react';
 export const Navbar = () => {
-	const [themeText, setThemeText] = useState<string>('');
-	const currentTheme = () => {
-		const html = document.querySelector('html');
-		const theme = html?.getAttribute('data-theme');
-		if (html) {
-			console.log(theme);
-			if (theme === 'fantasy') {
-				setThemeText('Light');
-				html.setAttribute('data-theme', 'night');
-			}
-
-			if (theme === 'night') {
-				setThemeText('Dark');
-				html.setAttribute('data-theme', 'fantasy');
-			}
-		}
-	};
-	useEffect(() => {
-		currentTheme();
-	}, []);
 	return (
 		<div className="navbar bg-base-100 sticky top-0 z-10 border-b-2 border-gray-200 sm:px-10">
 			<div className="navbar-start">
@@ -112,16 +91,16 @@ export const Navbar = () => {
 								Contact
 							</Link>
 						</li>
-							<Link
-								target="blank"
-								href="https://www.paypal.com/donate/?hosted_button_id=X9H2JT2XF5PEG"
-							>
-								<Button
-									className='text-sm'
-									buttonType="accent"
-									buttonText="Donate"
-								/>
-							</Link>
+						<Link
+							target="blank"
+							href="https://www.paypal.com/donate/?hosted_button_id=X9H2JT2XF5PEG"
+						>
+							<Button
+								className="text-sm"
+								buttonType="accent"
+								buttonText="Donate"
+							/>
+						</Link>
 					</ul>
 				</div>
 			</div>
@@ -135,13 +114,12 @@ export const Navbar = () => {
 					buttonText="Donate"
 				/>
 			</Link>
-			<label className="swap swap-rotate ml-5">
+			<label className="swap swap-rotate mx-5">
 				{/* this hidden checkbox controls the state */}
 				<input
 					type="checkbox"
 					className="theme-controller"
 					value="night"
-					onClick={currentTheme}
 				/>
 
 				{/* sun icon */}

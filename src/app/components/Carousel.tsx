@@ -18,13 +18,13 @@ export const Carousel = () => {
 				<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 					<a
 						href="#slide5"
-						className="btn btn-circle bg-gray-100 text-black border-2"
+						className="btn btn-circle border-2"
 					>
 						❮
 					</a>
 					<a
 						href="#slide2"
-						className="btn btn-circle bg-gray-100 text-black"
+						className="btn btn-circle"
 					>
 						❯
 					</a>
@@ -45,13 +45,13 @@ export const Carousel = () => {
 				<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 					<a
 						href="#slide1"
-						className="btn btn-circle bg-gray-100 text-black"
+						className="btn btn-circle"
 					>
 						❮
 					</a>
 					<a
 						href="#slide3"
-						className="btn btn-circle bg-gray-100 text-black"
+						className="btn btn-circle"
 					>
 						❯
 					</a>
@@ -72,13 +72,13 @@ export const Carousel = () => {
 				<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 					<a
 						href="#slide2"
-						className="btn btn-circle bg-gray-100 text-black"
+						className="btn btn-circle"
 					>
 						❮
 					</a>
 					<a
 						href="#slide4"
-						className="btn btn-circle bg-gray-100 text-black"
+						className="btn btn-circle"
 					>
 						❯
 					</a>
@@ -99,13 +99,13 @@ export const Carousel = () => {
 				<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 					<a
 						href="#slide3"
-						className="btn btn-circle bg-gray-100 text-black"
+						className="btn btn-circle"
 					>
 						❮
 					</a>
 					<a
 						href="#slide5"
-						className="btn btn-circle bg-gray-100 text-black"
+						className="btn btn-circle"
 					>
 						❯
 					</a>
@@ -126,13 +126,13 @@ export const Carousel = () => {
 				<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
 					<a
 						href="#slide4"
-						className="btn btn-circle bg-gray-100 text-black"
+						className="btn btn-circle"
 					>
 						❮
 					</a>
 					<a
 						href="#slide1"
-						className="btn btn-circle bg-gray-100 text-black"
+						className="btn btn-circle"
 					>
 						❯
 					</a>

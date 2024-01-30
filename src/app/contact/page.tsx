@@ -22,7 +22,7 @@ export default function Contact() {
 	];
 	return (
 		<>
-			<div className="container mx-auto lg:px-64">
+			<div className="container mx-auto lg:px-56 ">
 				<h1 className="text-4xl font-bold  py-10 text-center">Contact Us</h1>
 				<form className="mx-5 sm:mx-3">
 					<div className="flex flex-row justify-center">
@@ -105,7 +105,7 @@ export default function Contact() {
 							/>
 						</label>
 					</div>
-					<div className="flex flex-row justify-start">
+					<div className="flex flex-row justify-start mx-auto">
 						<label className="form-control w-full">
 							<div className="label ">
 								<span className="label-text">Subject</span>
@@ -126,7 +126,6 @@ export default function Contact() {
 					</div>
 					<div className="flex justify-start pb-16">
 						<Button
-							spacing="5"
 							buttonType="primary"
 							buttonText="Submit"
 						/>
@@ -137,15 +136,17 @@ export default function Contact() {
 					</div>
 				</form>
 				<Divider />
-				<iframe
-					className="container mx-auto py-20"
-					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14321.920189741184!2d-97.747167!3d26.181058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866f804eaa6674d3%3A0x203fc3ea18d004f!2sValley%20Haven%20Inc.!5e0!3m2!1sen!2sus!4v1705465888376!5m2!1sen!2sus"
-					width="1030"
-					height="500"
-					loading="lazy"
-				></iframe>
+				<div className='mx-5'>
+					<iframe
+						className="container mx-auto py-20"
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14321.920189741184!2d-97.747167!3d26.181058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866f804eaa6674d3%3A0x203fc3ea18d004f!2sValley%20Haven%20Inc.!5e0!3m2!1sen!2sus!4v1705465888376!5m2!1sen!2sus"
+						width="1030"
+						height="500"
+						loading="lazy"
+					></iframe>
+				</div>
 			</div>
-			<div className="flex flex-row lg:justify-evenly justify-between mx-2">
+			<div className="flex flex-col md:flex-row lg:justify-evenly justify-between mx-5">
 				{contactElements.map((el, i) => {
 					return (
 						<ContactElement

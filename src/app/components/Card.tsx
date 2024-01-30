@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export const Card = ({ title, content, linkSrc, imageSrc }: ICard) => {
 	return (
-		<div className="card w-96 glass transition ease-in-out hover:shadow-lg hover:shadow-gray-200 hover:-translate-y-5">
+		<div className="card w-96 glass transition ease-in-out hover:shadow-lg hover:shadow-base-200 hover:-translate-y-5">
 			<figure>
 				<Image
 					style={{ height: 350 }}
@@ -22,7 +22,7 @@ export const Card = ({ title, content, linkSrc, imageSrc }: ICard) => {
 					<Link href={linkSrc}>
 						<Button
 							buttonText="Learn More"
-							buttonType="primary"
+							buttonType="outline"
 						/>
 					</Link>
 				</div>
