@@ -136,7 +136,7 @@ export default function Contact() {
 					</div>
 				</form>
 				<Divider />
-				<div className='mx-5'>
+				<div className="mx-5">
 					<iframe
 						className="container mx-auto py-20"
 						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14321.920189741184!2d-97.747167!3d26.181058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866f804eaa6674d3%3A0x203fc3ea18d004f!2sValley%20Haven%20Inc.!5e0!3m2!1sen!2sus!4v1705465888376!5m2!1sen!2sus"

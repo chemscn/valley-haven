@@ -3,13 +3,13 @@ import { IButton } from '../models';
 
 export const Button = ({ buttonType, buttonText, className }: IButton) => {
 	const buttonSwitch = () => {
-		let newClass = `btn text-lg ${className}`;
+		let newClass = `btn text-lg ${className? className: ''}`;
 		switch (buttonType) {
 			case (buttonType = 'link'):
 				return (newClass += ' btn-link text-white');
 			case (buttonType = 'outline'):
 				return (newClass +=
-					' btn-outline dark:text-white dark:border-white border-green-800 text-green-800 hover:text-white hover:bg-green-700 hover:border-green-700');
+					' btn-outline hover:text-white hover:bg-green-700 hover:border-green-700');
 			case (buttonType = 'primary'):
 				return (newClass +=
 					' bg-green-800 hover:text-white hover:bg-green-700 hover:border-green-700 text-white');

@@ -48,6 +48,16 @@ export default function About() {
 			</div>
 			<div className="py-10">
 				<Divider />
+				<div className="py-10 flex justify-center">
+				<iframe
+					width={1200}
+					height={600}
+					src="https://www.youtube.com/embed/d7HJoUVD5CA?si=TJQiJtTlddiSb7g4"
+					title="YouTube video player"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				></iframe>
+				</div>
+				<Divider />
 			</div>
 			<h1 className="text-5xl text-center pb-4">Our Founders</h1>
 			<div className="flex flex-col md:flex-row md:justify-around mx-20 py-10 gap-5 md:gap-2">
