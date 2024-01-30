@@ -50,7 +50,7 @@ export default function About() {
 				<Divider />
 			</div>
 			<h1 className="text-5xl text-center pb-4">Our Founders</h1>
-			<div className="flex flex-row justify-around py-10 sm:gap-2">
+			<div className="flex flex-col md:flex-row md:justify-around mx-20 py-10 gap-5 md:gap-2">
 				<div className="avatar flex-col items-center">
 					<div className="w-40 mask mask-squircle">
 						<img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />

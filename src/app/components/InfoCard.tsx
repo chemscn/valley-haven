@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { ICardInfo } from '../models';
 
 export const InfoCard = ({
-	cardInfo: { title, paragraphs, imageSrc, imageAlt, imageWidth, imageHeight, isWishList },
+	cardInfo: { title, paragraphs, imageSrc, imageAlt, imageWidth, imageHeight, isWishList }
 }: ICardInfo) => {
 	return (
 		<div className="card my-10 mx-10 bg-green-800 text-white md:mx-40">
