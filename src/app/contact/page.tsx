@@ -128,12 +128,12 @@ export default function Contact() {
 						<Button
 							buttonType="primary"
 							buttonText="Submit"
-							mode='submit'
+							mode="submit"
 						/>
 						<Button
 							buttonType="danger"
 							buttonText="Reset"
-							mode='reset'
+							mode="reset"
 						/>
 					</div>
 				</form>

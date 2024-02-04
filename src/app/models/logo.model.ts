@@ -1,5 +1,5 @@
 export interface ILogoProps {
-    height: number;
-    width: number;
-    theme:string;
+	height: number;
+	width: number;
+	theme: string;
 }

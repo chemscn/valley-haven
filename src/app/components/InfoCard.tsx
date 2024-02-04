@@ -53,8 +53,7 @@ export const InfoCard = ({
 						</a>
 					</div>
 				)}
-				{
-					isVolunteer &&
+				{isVolunteer && (
 					<Link
 						target="_blank"
 						href="https://form.jotform.com/kristenmillon/valley-haven-volunteer-application"
@@ -64,7 +63,7 @@ export const InfoCard = ({
 							buttonText="Get Involved"
 						/>
 					</Link>
-				}
+				)}
 			</div>
 		</div>
 	);
