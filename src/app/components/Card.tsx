@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import { ICard } from '../models';
-import { Button } from '.';
 import Image from 'next/image';
+import Link from 'next/link';
+import { Button } from '.';
+import { ICard } from '../models';
 
 export const Card = ({ title, content, linkSrc, imageSrc }: ICard) => {
 	return (

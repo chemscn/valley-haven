@@ -14,6 +14,7 @@ export interface ICardInfoProps {
 	imageHeight?: number;
 	imageWidth?: number;
 	isWishList?: boolean;
+	isVolunteer?: boolean;
 }
 
 export interface ICardInfo {

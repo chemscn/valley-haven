@@ -1,8 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { ICardInfo } from '../models';
+import { Button } from './Button';
 
 export const InfoCard = ({
-	cardInfo: { title, paragraphs, imageSrc, imageAlt, imageWidth, imageHeight, isWishList }
+	cardInfo: { title, paragraphs, imageSrc, imageAlt, imageWidth, imageHeight, isWishList, isVolunteer }
 }: ICardInfo) => {
 	return (
 		<div className="card my-10 mx-10 bg-green-800 text-white md:mx-40">
@@ -51,6 +53,18 @@ export const InfoCard = ({
 						</a>
 					</div>
 				)}
+				{
+					isVolunteer &&
+					<Link
+						target="_blank"
+						href="https://form.jotform.com/kristenmillon/valley-haven-volunteer-application"
+					>
+						<Button
+							buttonType="accent"
+							buttonText="Get Involved"
+						/>
+					</Link>
+				}
 			</div>
 		</div>
 	);

@@ -49,13 +49,13 @@ export default function About() {
 			<div className="py-10">
 				<Divider />
 				<div className="py-10 flex justify-center">
-				<iframe
-					width={1200}
-					height={600}
-					src="https://www.youtube.com/embed/d7HJoUVD5CA?si=TJQiJtTlddiSb7g4"
-					title="YouTube video player"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				></iframe>
+					<iframe
+						width={1200}
+						height={600}
+						src="https://www.youtube.com/embed/d7HJoUVD5CA?si=TJQiJtTlddiSb7g4"
+						title="YouTube video player"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					></iframe>
 				</div>
 				<Divider />
 			</div>

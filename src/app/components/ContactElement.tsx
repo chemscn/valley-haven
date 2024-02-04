@@ -1,6 +1,5 @@
-import React from 'react';
-import { IContactElement } from '../models';
 import Image from 'next/image';
+import { IContactElement } from '../models';
 
 export const ContactElement = ({ imageSrc, title, subContent, isEmail, isPhone }: IContactElement) => {
 	return (

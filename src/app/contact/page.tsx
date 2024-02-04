@@ -22,7 +22,7 @@ export default function Contact() {
 	];
 	return (
 		<>
-			<div className="container mx-auto lg:px-56 ">
+			<div className="container mx-auto ">
 				<h1 className="text-4xl font-bold  py-10 text-center">Contact Us</h1>
 				<form className="mx-5 sm:mx-3">
 					<div className="flex flex-row justify-center">
@@ -105,7 +105,7 @@ export default function Contact() {
 							/>
 						</label>
 					</div>
-					<div className="flex flex-row justify-start mx-auto">
+					<div className="flex flex-row justify-start mx-auto xl:mx-24 2xl:mx-56">
 						<label className="form-control w-full">
 							<div className="label ">
 								<span className="label-text">Subject</span>
@@ -116,7 +116,7 @@ export default function Contact() {
 							/>
 						</label>
 					</div>
-					<div className="flex flex-row pb-10">
+					<div className="flex flex-row pb-10 mx-auto xl:mx-24 2xl:mx-56">
 						<label className="form-control w-full">
 							<div className="label">
 								<span className="label-text">Message</span>
@@ -124,14 +124,16 @@ export default function Contact() {
 							<textarea className="textarea textarea-success textarea-bordered textarea-lg w-full"></textarea>
 						</label>
 					</div>
-					<div className="flex justify-start pb-16">
+					<div className="flex justify-start pb-16 mx-auto xl:mx-24 2xl:mx-56">
 						<Button
 							buttonType="primary"
 							buttonText="Submit"
+							mode='submit'
 						/>
 						<Button
 							buttonType="danger"
 							buttonText="Reset"
+							mode='reset'
 						/>
 					</div>
 				</form>
