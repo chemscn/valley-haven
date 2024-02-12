@@ -1,9 +1,10 @@
+import childrenImage from '/public/children.jpg';
 export const AboutHero = () => {
 	return (
 		<div
 			className="hero md:p-20"
 			style={{
-				backgroundImage: 'url(/children.jpg)'
+				backgroundImage: `url(${childrenImage.src})`
 			}}
 		>
 			<div className="hero-overlay bg-opacity-70"></div>

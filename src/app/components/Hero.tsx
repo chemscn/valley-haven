@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '.';
 
+import heroImage from '/public/hero-main-page.png';
+
 export const Hero = () => {
 	return (
 		<div className="hero pb-10">
@@ -25,7 +27,7 @@ export const Hero = () => {
 				</div>
 				<Image
 					className="border-1 rounded-lg"
-					src="/hero-main-page.png"
+					src={heroImage}
 					alt="photo of kids"
 					width={400}
 					height={200}
