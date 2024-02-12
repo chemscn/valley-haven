@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
+    output: process.env.NODE_ENV !== 'production' ? 'standalone': 'export',
 	images: {
 		remotePatterns: [
             {

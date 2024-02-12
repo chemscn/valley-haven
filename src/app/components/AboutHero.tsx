@@ -3,7 +3,7 @@ export const AboutHero = () => {
 		<div
 			className="hero md:p-20"
 			style={{
-				backgroundImage: 'url(/children.png)'
+				backgroundImage: 'url(/children.jpg)'
 			}}
 		>
 			<div className="hero-overlay bg-opacity-70"></div>
