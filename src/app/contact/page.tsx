@@ -1,20 +1,23 @@
 import { Button, ContactElement, Divider } from '../components';
 import { IContactElement } from '../models';
+import geoImage from '/public/geo.svg';
+import telephoneImage from '/public/telephone.svg';
+import emailImage from '/public/mail.svg';
 
 export default function Contact() {
 	const contactElements: IContactElement[] = [
 		{
-			imageSrc: '/geo.svg',
+			imageSrc: geoImage,
 			title: 'Address'
 		},
 		{
-			imageSrc: '/telephone.svg',
+			imageSrc: telephoneImage,
 			title: 'Phone Number',
 			subContent: '(956) 893-0422',
 			isPhone: true
 		},
 		{
-			imageSrc: '/mail.svg',
+			imageSrc: emailImage,
 			title: 'Email',
 			subContent: 'info@valleyhaveninc.org',
 			isEmail: true

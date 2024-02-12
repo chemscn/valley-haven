@@ -4,6 +4,10 @@ import { Carousel } from './components/Carousel';
 import { Hero } from './components/Hero';
 import { InfoCard } from './components/InfoCard';
 import { ICard, ICardInfoProps } from './models';
+import volunteerImage from '/public/volunteer.jpg';
+import careerImage from '/public/career.jpg';
+import donationImage from '/public/donation.jpg';
+import handsImage from '/public/hands.png';
 
 const cards: ICard[] = [
 	{
@@ -13,7 +17,7 @@ const cards: ICard[] = [
 		and time can bring comfort and support to those in need
 		`,
 		linkSrc: '/volunteer',
-		imageSrc: '/volunteer.jpg'
+		imageSrc: volunteerImage
 	},
 	{
 		title: 'Career',
@@ -22,7 +26,7 @@ const cards: ICard[] = [
 		where every career contributes to creating a secure and nurturing envrionment for those in crisis.
 		`,
 		linkSrc: '/career',
-		imageSrc: '/career.jpg'
+		imageSrc: careerImage
 	},
 	{
 		title: 'Giving',
@@ -31,7 +35,7 @@ const cards: ICard[] = [
 		helping us provide essential care and comfort to those facing crisis situations.
 		`,
 		linkSrc: '/giving',
-		imageSrc: '/donation.jpg'
+		imageSrc: donationImage
 	}
 ];
 
@@ -44,7 +48,7 @@ const cardInfo: ICardInfoProps = {
 		`At Valley Haven, safety is paramount, love is unconditional, voices are heard, and happiness is not just a fleeting emotion but a foundational aspect of every child's experience. We believe in nurturing the whole child – mind, body, and spirit – to cultivate well-rounded individuals who are poised to thrive in all facets of life.`,
 		`Join us at Valley Haven, where every child's journey is celebrated, and every dream is nurtured with unwavering support and dedication. Together, we shape futures and empower the leaders of tomorrow.`
 	],
-	imageSrc: '/hands.png',
+	imageSrc: handsImage,
 	imageAlt: 'holding hands',
 	imageHeight: 300,
 	imageWidth: 300

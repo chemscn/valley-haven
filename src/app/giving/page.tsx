@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { Button, Divider, InfoCard } from '../components';
 import { ICardInfoProps } from '../models';
+import childrenRunningImage from '/public/children-running.png';
+import circleChildrenImage from '/public/circle-children.png';
 
 export default function Giving() {
 	const givingCardInfo: ICardInfoProps = {
@@ -14,7 +16,7 @@ export default function Giving() {
 			`Imagine the joy in a child's eyes when they realize they are not alone, that there are people out there who care enough to lend a helping hand. Your donation to Valley Haven is more than just a financial transaction; it's a lifeline of hope for these children, a beacon of light in their darkest moments. Your support has the power to transform despair into possibility, sadness into smiles, and uncertainty into a future filled with promise. Let's come together and be the change-makers these children need. Every dollar, every act of generosity, is a step towards building a community where love, compassion, and support reign supreme. Thank you for being a part of this journey towards a brighter, more inclusive world for all.`,
 			`"I am only one, but I am one. I cannot do everything, but I can do something.  And I will not let what I cannot do interfere with what I can do."  ~Edward Hale `
 		],
-		imageSrc: '/children-running.png',
+		imageSrc: childrenRunningImage,
 		imageAlt: 'children running',
 		imageWidth: 600,
 		imageHeight: 300
@@ -28,7 +30,7 @@ export default function Giving() {
 			`By coming together as a community to support Valley Haven, we are not just providing material goods; we are investing in the future of these children. Your donations pave the way for brighter tomorrows, where these children can grow and thrive in a safe and supportive environment. Together, we can make a difference in the lives of these children and show them that they are not alone – that their community stands behind them, ready to lift them up and support them every step of the way. Thank you for your continued generosity and support.`,
 			`Valley Haven relies on the generosity of the community in order to provide clothing, shoes, and personal care items for the children in our care.`
 		],
-		imageSrc: '/circle-children.png',
+		imageSrc: circleChildrenImage,
 		imageAlt: 'children holding hands in a cirlce',
 		imageWidth: 300,
 		imageHeight: 300,

@@ -1,5 +1,9 @@
 import Image from 'next/image';
-import carouselImage1 from '../../../public/carousel-1.jpg'
+import carouselImage1 from '/public/carousel-1.jpg';
+import carouselImage2 from '/public/carousel-2.jpg';
+import carouselImage3 from '/public/carousel-3.jpg';
+import carouselImage4 from '/public/carousel-4.jpg';
+import carouselImage5 from '/public/carousel-5.jpg';
 
 export const Carousel = () => {
 	return (
@@ -36,10 +40,10 @@ export const Carousel = () => {
 			>
 				<Image
 					className="w-full"
-					src="/carousel-2.jpg"
+					src={carouselImage2}
 					width={400}
 					height={40}
-					alt="picture of emergency center outside"
+					alt="inside shelter"
 				/>
 
 				<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -63,10 +67,10 @@ export const Carousel = () => {
 			>
 				<Image
 					className="w-full"
-					src="/carousel-3.jpg"
+					src={carouselImage3}
 					width={400}
 					height={40}
-					alt="picture of emergency center outside"
+					alt="inside shelter kitchen"
 				/>
 
 				<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -90,10 +94,10 @@ export const Carousel = () => {
 			>
 				<Image
 					className="w-full"
-					src="/carousel-4.jpg"
+					src={carouselImage4}
 					width={400}
 					height={40}
-					alt="picture of emergency center outside"
+					alt="inside shelter bedroom"
 				/>
 
 				<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -117,10 +121,10 @@ export const Carousel = () => {
 			>
 				<Image
 					className="w-full"
-					src="/carousel-5.jpg"
+					src={carouselImage5}
 					width={400}
 					height={40}
-					alt="picture of emergency center outside"
+					alt="inside shelter bedroom 2"
 				/>
 
 				<div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

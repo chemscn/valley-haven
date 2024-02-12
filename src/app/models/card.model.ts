@@ -1,15 +1,17 @@
+import { StaticImageData } from "next/image";
+
 export interface ICard {
 	title: string;
 	content: string;
 	linkSrc: string;
-	imageSrc: string;
+	imageSrc: StaticImageData;
 }
 
 export interface ICardInfoProps {
 	title: string;
 	paragraphs: string[];
 	hasImage?: boolean;
-	imageSrc?: string;
+	imageSrc?: StaticImageData;
 	imageAlt?: string;
 	imageHeight?: number;
 	imageWidth?: number;
