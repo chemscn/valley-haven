@@ -27,7 +27,7 @@ export const Hero = () => {
 				</div>
 				<Image
 					className="border-1 rounded-lg"
-					src={heroImage}
+					src={heroImage.src}
 					alt="photo of kids"
 					width={400}
 					height={200}
