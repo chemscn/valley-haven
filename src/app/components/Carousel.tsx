@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import carouselImage1 from '../../../public/carousel-1.jpg'
 
 export const Carousel = () => {
 	return (
@@ -9,7 +10,7 @@ export const Carousel = () => {
 			>
 				<Image
 					className="w-full"
-					src="/carousel-1.jpg"
+					src={carouselImage1}
 					width={400}
 					height={40}
 					alt="picture of emergency center outside"
