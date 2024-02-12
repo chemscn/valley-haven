@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Button, Divider, InfoCard } from '../components';
 import { ICardInfoProps } from '../models';
-import childrenRunningImage from '/public/children-running.png';
+import childrenPlayingImage from '/public/children-playing.jpg';
 import circleChildrenImage from '/public/circle-children.png';
 
 export default function Giving() {
@@ -16,7 +16,7 @@ export default function Giving() {
 			`Imagine the joy in a child's eyes when they realize they are not alone, that there are people out there who care enough to lend a helping hand. Your donation to Valley Haven is more than just a financial transaction; it's a lifeline of hope for these children, a beacon of light in their darkest moments. Your support has the power to transform despair into possibility, sadness into smiles, and uncertainty into a future filled with promise. Let's come together and be the change-makers these children need. Every dollar, every act of generosity, is a step towards building a community where love, compassion, and support reign supreme. Thank you for being a part of this journey towards a brighter, more inclusive world for all.`,
 			`"I am only one, but I am one. I cannot do everything, but I can do something.  And I will not let what I cannot do interfere with what I can do."  ~Edward Hale `
 		],
-		imageSrc: childrenRunningImage,
+		imageSrc: childrenPlayingImage,
 		imageAlt: 'children running',
 		imageWidth: 600,
 		imageHeight: 300
